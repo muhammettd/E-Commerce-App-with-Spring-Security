@@ -6,7 +6,7 @@ Polyglot Development: Leverages Kotlin for lightweight, concise Data Classes (Mo
 
 Advanced Security: Fully integrated Spring Security with database-backed authentication.
 
-Role-Based Access Control (RBAC): Users can perform actions based on specific roles (e.g., ADMIN, USER) stored in the database.
+Role-Based Access Control (RBAC): Users can perform actions based on specific roles stored in the database.
 
 Product Management: Complete CRUD operations for an e-commerce catalog.
 
@@ -20,10 +20,3 @@ Framework: Spring Boot 3.x, Spring Security, Spring Data JPA
 Database: MySQL
 
 Architecture: Layered Architecture (Controller, Service, Repository, DTO)
-
-🔑 Security Configuration
-The app secures endpoints based on user roles:
-
-ADMIN: Can manage products and view all user data.
-
-USER: Can browse products and manage their own profile.
